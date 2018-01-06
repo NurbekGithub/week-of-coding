@@ -1,0 +1,93 @@
+/*Картинки компаний*/
+.companies-wrap {
+  background-color: #fff;
+  height: 200px;
+}
+.companies-wrap > img {
+  padding: 60px 0;
+}
+/*Форма*/
+.form-wrap {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.form-wrap h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 85px;
+  line-height: 84px;
+}
+.form-wrap p {
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 24px;
+}
+.form-wrap form {
+  margin-top: 30px;
+  padding: 0 50px;
+}
+.form-wrap .form-control {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  border: none;
+  border-radius: 0;
+  color: #787878;
+}
+.form-wrap .form-group {
+  margin-bottom: 30px;
+}
+.form-wrap .form-group .btn-primary {
+  background-color: #10c9c3;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px #10c9c3 solid;
+  border-radius: 0;
+  padding: 20px 34px;
+  transition: background-color .4s ease, border .4s ease, color 0.4s ease
+}
+.form-wrap .form-group .btn-primary:hover {
+  background-color: #fff;
+  color: #10c9c3;
+}
+/*Футер*/
+footer {
+  background-color: #141414;
+  color: #bcbcbc;
+  padding: 100px 0 60px;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 24px;  
+}
+.copyright-wrap h4 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+footer p {
+  margin-bottom: 0; 
+}
+footer a {
+  color: #bcbcbc;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 24px;
+  margin-bottom: 0; 
+}
+footer a:hover, footer a:focus {
+  color: #10c9c3;
+  text-decoration: none;
+}
+.information-wrap ul {
+  display: inline-block;
+  padding: 0 30px;
+}
