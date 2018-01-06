@@ -1,7 +1,87 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width : 992px) {
+  .information-wrap ul {
+    padding: 0 10px !important;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 576px) and (max-width : 768px) {
+  .information-wrap, .social-wrap {
+    padding-top: 25px;
+  }
+  .information-wrap ul {
+    padding: 0 40px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+  .form-wrap form {
+    padding: 0 !important;
+  }
+  .contact-wrap, .information-wrap, .social-wrap {
+    padding-top: 25px;
+    text-align: center;
+  }
+  .copyright-wrap {
+    text-align: center;
+  }
+  .hidden-sm-up {
+    text-align: center;
+    padding: 40px 0;
+  }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
 /*Картинки компаний*/
 .companies-wrap {
   background-color: #fff;
-  height: 200px;
 }
 .companies-wrap > img {
   padding: 60px 0;
@@ -89,5 +169,5 @@ footer a:hover, footer a:focus {
 }
 .information-wrap ul {
   display: inline-block;
-  padding: 0 30px;
+  padding: 0 20px;
 }
