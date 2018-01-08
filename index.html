@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Day2</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/Meir.css">
@@ -26,7 +27,151 @@
   <!-- Alibek -->
 
   <!-- Nurbek -->
-    <!-- Напишите нам to footer -->
+    <section id='contact' class='contact'>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Напишите нам</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque,
+              luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti.
+            </p>
+            <div class="social">
+              <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+              <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+              <a href=""><i class="fa fa-rss fa-lg"></i></a>
+              <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
+              <a href=""><i class="fa fa-flickr fa-lg"></i></a>
+              <a href=""><i class="fa fa-dribbble fa-lg"></i></a>
+              <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
+              <a href=""><i class="fa fa-pinterest fa-lg"></i></a>
+              <a href=""><i class="fa fa-skype fa-lg"></i></a>
+              <a href=""><i class="fa fa-vimeo fa-lg"></i></a>
+              <a href=""><i class="fa fa-tumblr fa-lg"></i></a>
+            </div>
+            <form>
+              <div class="custom-input mb-3">
+                <label for="name">Имя *</label>
+                <input type="text" id='name'/>
+              </div>
+              <div class="custom-input mb-3">
+                <label for="email">E-mail *</label>
+                <input type="text" id='email'/>
+              </div>
+              <div class="custom-input mb-3">
+                <label for="tel">Телефон</label>
+                <input type="text" id='tel'/>
+              </div>
+              <textarea class="mb-3"></textarea>
+              <button type="submit">Отправить</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h3>Наша команда</h3>
+            <div id="cardSlide" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#cardSlide" data-slide-to="0" class="square"></li>
+                <li data-target="#cardSlide" data-slide-to="1" class="active square"></li>
+                <li data-target="#cardSlide" data-slide-to="2" class="square"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item">
+                  <div class="cards">
+                    <div class="card">
+                      <img src="cro.jpg" alt="Cristiano Ronaldo">
+                      <div class='data'>
+                        <h4>Криштиа́ну Рона́лду</h4>
+                        <span>Нападающий</span>
+                        <p>Роналду стал первым португальским игроком в истории «Манчестер Юнайтед»,
+                          заключив контракт с клубом после окончания сезона 2002/03</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="bale.jpg" alt="Gareth Bale">
+                      <div class='data'>
+                        <h4>Гарет Бейл</h4>
+                        <span>Нападающий</span>
+                        <p>Выступает на позиции крайнего нападающего. 
+                         Отличается высокой скоростью и хорошо поставленным ударом.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="benz.jpg" alt="Karim Benzema">
+                      <div class='data'>
+                       <h4>Карим Бензема</h4>
+                        <span>Нападающий</span>
+                        <p>В 9 лет попал в систему подготовки «Лиона», в 17 стал одним
+                         из лучших игроков резерва команды, забивая по три десятка голов за сезон</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="cards">
+                    <div class="player-card">
+                      <img src="images/cro.jpg" alt="Cristiano Ronaldo">
+                      <div class='data'>
+                        <h4>Криштиа́ну Рона́лду</h4>
+                        <span>Нападающий</span>
+                        <p>Роналду стал первым португальским игроком в истории «Манчестер Юнайтед»,
+                          заключив контракт с клубом после окончания сезона 2002/03</p>
+                      </div>
+                    </div>
+                    <div class="player-card">
+                      <img src="images/bale.jpg" alt="Gareth Bale">
+                      <div class='data'>
+                        <h4>Гарет Бейл</h4>
+                        <span>Нападающий</span>
+                        <p>Выступает на позиции крайнего нападающего. 
+                          Отличается высокой скоростью и хорошо поставленным ударом.</p>
+                      </div>
+                    </div>
+                    <div class="player-card">
+                      <img src="images/benz.jpg" alt="Karim Benzema">
+                      <div class='data'>
+                        <h4>Карим Бензема</h4>
+                        <span>Нападающий</span>
+                        <p>В 9 лет попал в систему подготовки «Лиона», в 17 стал одним
+                          из лучших игроков резерва команды, забивая по три десятка голов за сезон</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <img src="cro.jpg" alt="Cristiano Ronaldo">
+                    <div class='data'>
+                      <h4>Криштиа́ну Рона́лду</h4>
+                      <span>Нападающий</span>
+                      <p>Роналду стал первым португальским игроком в истории «Манчестер Юнайтед»,
+                          заключив контракт с клубом после окончания сезона 2002/03</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="bale.jpg" alt="Gareth Bale">
+                    <div class='data'>
+                      <h4>Гарет Бейл</h4>
+                      <span>Нападающий</span>
+                      <p>Выступает на позиции крайнего нападающего. 
+                        Отличается высокой скоростью и хорошо поставленным ударом.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="benz.jpg" alt="Karim Benzema">
+                    <div class='data'>
+                      <h4>Карим Бензема</h4>
+                      <span>Нападающий</span>
+                      <p>В 9 лет попал в систему подготовки «Лиона», в 17 стал одним
+                          из лучших игроков резерва команды, забивая по три десятка голов за сезон</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   <!-- Nurbek -->
 </body>
 </html>
